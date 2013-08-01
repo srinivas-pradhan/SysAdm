@@ -22,7 +22,7 @@ if __name__=="__main__":
     
     parser.add_option("-a", "--address", dest="address", default='localhost', help="ADDRESS for server", metavar="ADDRESS")
     
-    parser.add_option("-a", "--port",dest="port", type="int", default=22, help="PORT for Server", metavar="PORT")
+    parser.add_option("-p", "--port",dest="port", type="int", default=22, help="PORT for Server", metavar="PORT")
     
     (options, args) = parser.parse_args()
     print('options: %s, args: %s') %(options,args)
